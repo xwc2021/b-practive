@@ -22,6 +22,16 @@
             height: 100%;
             object-fit: cover;
         }
+
+        .img-container-auto {
+            width: 400px;
+            height: 400px;
+            overflow: auto;
+        }
+
+        .img-container-auto img {
+            width: 100%;
+        }
     </style>
     <title>Hello, world!</title>
 </head>
@@ -31,6 +41,13 @@
     <div class="img-container">
         <img src="https://picsum.photos/100/300?random=1" alt="...">
     </div>
+
+    <div class="img-container-auto">
+        <img src="https://picsum.photos/600/1200?random=1" alt="...">
+    </div>
+
+    <img src="https://picsum.photos/100/100?random=1" class="rounded-circle">
+    <img src="https://picsum.photos/300/100?random=1" class="rounded-pill">
 
 
 
